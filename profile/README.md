@@ -6,9 +6,6 @@ main branch는 최종적으로 완료된 코드만 올립니다.
 각자 이름별로 branch가 있습니다.
 
 
-
-
-
 ## step1 - 자신의 branch에 문제 해결하기
 	
     git clone https://github.com/mensa-algorithm/2024-2.git
@@ -47,16 +44,50 @@ README.md는 디렉토리임을 알려주기 위해 임시로 생성했습니다
 
     git push origin <자신의 이름(닉네임)>
 
-이후, push가 완료 됐는지 확인합니다.
+이후, 자신의 branch에 code가 push 완료 됐는지 확인합니다.
 
 이후 PR을 진행합니다.
+만약 문제를 해결하지 못했고, 다른 팀원들의 의견을 듣고 싶으면, `step1.1 및 step1.2` 로 넘어갑니다.
+
+## step1.1 - Review (선택 사항)
+
+팀원들에게 자신의 코드 리뷰를 듣고 싶으면 `Issue 발행 - Review 템플릿`을 선택합니다.
+![image](https://github.com/user-attachments/assets/42b61416-8045-421a-b1bc-30e797ede083)
+
+![image](https://github.com/user-attachments/assets/7ecc331c-8511-4f5f-9736-ad6818d0e8cc)
+
+위 양식에 맞게 내용을 작성한 후, Issue를 발행합니다. 
+
+## step1.2 - 문제 해결하지 못했을 경우 (선택 사항)
+
+문제를 해결하지 못해서, 팀원들에게 조언을 얻고 싶다면 `Issue 발행 - 어려운 문 템플릿`을 선택합니다.
+![image](https://github.com/user-attachments/assets/d742081c-5d84-4e61-a30a-09f88393dfd8)
+
+![image](https://github.com/user-attachments/assets/808e9d7a-a27c-48fc-9bcc-12b39db0b8df)
+
+위 양식에 맞게 내용을 작성한 후, Issue를 발행합니다.
+
+## step1.3 - 팀원들의 의견을 들은 후 (선택 사항)
+
+팀원들의 의견을 들은 후, 다시 문제를 해결합니다. 이후, PR을 진행합니다.
+
+## step2 - 문제 해결 및 Pull Request
+
+문제 해결을 했으므로, 문제 해결 Issue를 발행합니다.
+
+![image](https://github.com/user-attachments/assets/a8beb040-0152-44f9-8f05-1366ecb4293b)
+
+이후, PR을 진행합니다.
+![image](https://github.com/user-attachments/assets/307949d5-fd4c-488b-9f67-e2ff060f759e)
+
+만약, `수정 사항이나 edge case`가 발견 되어 pr이 거부당한 경우는, PR을 닫지 말고, 다시 commit을 하면 됩니다.  
+그러면 자동적으로 PR에 반영이 됩니다.
+이후 `amm0124`의 pr 승인이 완료되면 끝입니다.
+
+## step3 - 원격 저장소와 local 저장소 동기화하기
+
+여러 사람이 사용하는 
 
 
-## step2 - Pull Request
 
-나중에 작성하겠습니다.
-
-    
-
- 
 
