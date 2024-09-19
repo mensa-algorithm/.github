@@ -39,15 +39,14 @@ README.md는 디렉토리임을 알려주기 위해 임시로 생성했습니다
 
     mkdir <platform .. ex boj, programmers..>
 
-플랫폼 디렉토리를 생성했으면, 디렉토리로 이동 후, 문제 소스 코드를 작성합니다.
-이후, 문제를 push합니다.
+플랫폼 디렉토리를 생성했으면,를 push합니다.
 
     git push origin <자신의 이름(닉네임)>
 
 이후, 자신의 branch에 code가 push 완료 됐는지 확인합니다.
 
 이후 PR을 진행합니다.
-만약 문제를 해결하지 못했고, 다른 팀원들의 의견을 듣고 싶으면, `step1.1 및 step1.2` 로 넘어갑니다.
+만약 문제를 해결하지 못했고, 다른 팀원들의 의견을 듣고 싶으면, `PR을 하지 않고 step1.1 및 step1.2` 로 넘어갑니다.
 
 ## step1.1 - Review (선택 사항)
 
@@ -60,7 +59,7 @@ README.md는 디렉토리임을 알려주기 위해 임시로 생성했습니다
 
 ## step1.2 - 문제 해결하지 못했을 경우 (선택 사항)
 
-문제를 해결하지 못해서, 팀원들에게 조언을 얻고 싶다면 `Issue 발행 - 어려운 문 템플릿`을 선택합니다.
+문제를 해결하지 못해서, 팀원들에게 조언을 얻고 싶다면 `Issue 발행 - 어려운 문제 템플릿`을 선택합니다.
 ![image](https://github.com/user-attachments/assets/d742081c-5d84-4e61-a30a-09f88393dfd8)
 
 ![image](https://github.com/user-attachments/assets/808e9d7a-a27c-48fc-9bcc-12b39db0b8df)
@@ -69,11 +68,11 @@ README.md는 디렉토리임을 알려주기 위해 임시로 생성했습니다
 
 ## step1.3 - 팀원들의 의견을 들은 후 (선택 사항)
 
-팀원들의 의견을 들은 후, 다시 문제를 해결합니다. 이후, PR을 진행합니다.
+팀원들의 의견을 들은 후, 다시 문제를 해결합니다. 이후, 문제를 푼 후, code PR을 진행합니다.
 
 ## step2 - 문제 해결 및 Pull Request
 
-문제 해결을 했으므로, 문제 해결 Issue를 발행합니다.
+문제 해결을 했으므로, 문제 해결 Issue를 발행합니다. 왜냐하면 팀원들에게 어떤 문제를 풀었는지 알려주기 위해서입니다!
 
 ![image](https://github.com/user-attachments/assets/a8beb040-0152-44f9-8f05-1366ecb4293b)
 
@@ -102,3 +101,4 @@ pr conflict 해결하기 힘듭니다!!!
 
 
 이상 모두 즐거운 알고리즘 ~
+~즐알~
